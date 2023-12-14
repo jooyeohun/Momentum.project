@@ -29,6 +29,3 @@ if(saveUsername === null) {
     painGreetings(saveUsername);
 }
 
-
-
-
