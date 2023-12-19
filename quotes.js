@@ -52,7 +52,7 @@ const quotes = [
 const quote = document.querySelector("#quote span:first-child");
 const arthor = document.querySelector("#quote span:last-child");
 
-todaysQuote = quotes[Math.floor(Math.random() * quotes.length)]
+todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todaysQuote.quote;
 arthor.innerText = todaysQuote.arthor;
