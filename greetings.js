@@ -18,7 +18,7 @@ function loginSubmit(event) {
 
 // username이 저장되어 있으면 username과 함께 특정 문구를 출력하고 hidden 요소를 제거하는 greetings 함수
 function painGreetings(username) {
-    greeting.innerText = `Hello ${username}`;
+    greeting.innerText = `Hello! ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME)
 }
 
