@@ -1,3 +1,26 @@
 .hidden {
     display: none;
 }
+
+img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+  }
+
+.scroll-x {
+ overflow-x: hidden;
+ overflow-y: auto;
+ white-space: nowrap;
+ -webkit-overflow-scrolling: touch;
+ -ms-overflow-style: none;
+ scrollbar-width: none;
+}
+
+
+
+  
